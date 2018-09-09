@@ -34,6 +34,7 @@ class Counter extends Component {
   }
 
   onChange() {
+    console.log('change happen' + this.props.caption);
     this.setState(this.getOwnState());
   }
 

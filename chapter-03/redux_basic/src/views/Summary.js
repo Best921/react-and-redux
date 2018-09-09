@@ -12,6 +12,7 @@ class Summary extends Component {
   }
 
   onChange() {
+    console.log('summary change happen');
     this.setState(this.getOwnState());
   }
 
